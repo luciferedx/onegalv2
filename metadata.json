@@ -1,0 +1,6 @@
+{
+  "name": "Onegal",
+  "description": "Ultra-smooth native Android Gallery app modeled after Samsung One UI 8.0 with 120Hz Coil 3 scrolling, pinch-to-zoom grids, Media3 playback, and plug-and-play USB-C / NVMe external drive indexing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
