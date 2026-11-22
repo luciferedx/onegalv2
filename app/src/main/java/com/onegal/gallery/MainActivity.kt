@@ -172,7 +172,7 @@ private fun OnegalRootScreen(
     val intentSenderLauncher = rememberLauncherForActivityResult(
         ActivityResultContracts.StartIntentSenderForResult()
     ) { result ->
-        if (result.resultCode == ComponentActivity.RESULT_OK) {
+        if (result.resultCode == android.app.Activity.RESULT_OK) {
             pendingIntentSuccessMsg?.let { viewModel.showToast(it) }
             viewModel.refreshInternalMedia()
         }
