@@ -186,7 +186,7 @@ class MediaStoreRepository(private val context: Context) {
             }
             .sortedWith(
                 compareByDescending<AlbumItem> { it.name.equals("Camera", ignoreCase = true) }
-                    .thenByDescending { it.coverItem.dateTakenMs }
+                    .thenByDescending { it.coverItem?.dateTakenMs ?: 0L }
             )
     }
 
